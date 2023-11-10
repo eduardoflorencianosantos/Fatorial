@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+form {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#expoente_2 {
+    border-radius: 10px;
+    border: 2px solid #D3D3D3;
+    border: none;
+    padding: 10px;
+}
+
+#fatorial_n {
+    border-radius: 10px;
+    border: 2px solid #D3D3D3;
+    border: none;
+    padding: 10px;
+}
+
+.botao {
+    background-color: #000;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    width: 172px;
+}
